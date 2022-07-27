@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio js</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="col">
+        <img src="./assets/imagenes/notebook.png" alt="notebook" />
+        <h2>Laptop Gamer AMD</h2>
+        <div>
+          <input type="number" id="cantidad" placeholder="cantidad" />
+          <select id="color">
+            <option value="darkblue">Dark-blue</option>
+            <option value="#000">Black</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+          </select>
+        </div>
+        <p class="parrafo-precio">PRECIO: 400000</p>
+        <button id="btn">Calcular Total</button>
+      </section>
+      <section class="col-2">
+        <p>Total: $ <span id="precioTotal">0</span></p>
+        <p>Cantidad: <span id="cantidadTotal">0</span></p>
+        <p>Color: <span class="color-circle" id="colorCircle"></span></p>
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
